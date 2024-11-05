@@ -22,9 +22,17 @@
 </section>
 <section class="articles">
     <h2>Artigos Recentes</h2>
-    
     <articles class="card">
-        <img src="images/the chosen capa.jpeg" alt="the chosen imagem">
+        <section class="carousel">
+            <div class="carousel-images">
+        <img src="images/the chosen capa.jpeg" alt="imagem 1">
+        <img src="images/image 2.webp" alt="imagem 2">
+        <img src="images/1664-14-01.jpg" alt="imagem 3">
+        
+            </div>
+            <button class="carousel-button prev" onclick="prevSlide()"></button>
+            <button class="carousel-button next" onclick="nextSlide()"></button>
+        </section>    
         <h3>The Chosen Terá Continuação?</h3>
         <p>The Chosen, o que podemos esperar da série que atraiu muitos fãs? E que mudou o pensamento de várias pessoas no mundo todo.</p>
         <p class="extra-content" style="display: none;">
@@ -39,16 +47,6 @@
     <video controls width="600">
         <source src="videos/The Chosen_ 1ª Temporada _ Trailer Oficial Dublado(720P_HD).mp4" type="video/mp4">
     </video>
-</section>
-<section class="carousel">
-    <div class="carousel-images">
-<img src="images/the chosen capa.jpeg" alt="imagem 1">
-<img src="images/image 2.webp" alt="imagem 2">
-<img src="images/1664-14-01.jpg" alt="imagem 3">
-
-    </div>
-    <button class="carousel-button prev" onclick="prevSlide()"></button>
-    <button class="carousel-button next" onclick="nextSlide()"></button>
 </section>
 <div id="notification" class="notification"></div>
 <script src="script.js"></script>
