@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>BLOG OF TEST</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+<nav>
+<a href="index.html" class="logo">BLOG OF TEST</a>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="sobre.html">SOBRE</a></li>
+</ul>
+</nav>
+ </header>
+<section class="hero">
+ <h1>WELCOME TO MY BLOG</h1>
+ <P>Explore meus artigos mais recentes e mantenha-se atualizado!</p>   
+</section>
+<section class="articles">
+    <h2>Artigos Recentes</h2>
+    
+    <articles class="card">
+        <img src="images/the chosen capa.jpeg" alt="the chosen imagem">
+        <h3>The Chosen Terá Continuação?</h3>
+        <p>The Chosen, o que podemos esperar da série que atraiu muitos fãs? E que mudou o pensamento de várias pessoas no mundo todo.</p>
+        <p class="extra-content" style="display: none;">
+            <strong>The Chosen</strong> - Os Escolhidos é uma série de TV que conta a história de Jesus de Nazaré e seus discípulos na Galileia e na Judeia do século I. A série é uma adaptação da Bíblia e mostra a vida de Jesus pela perspectiva das pessoas que o conheceram. 
+            A série The Chosen - Os Escolhidos já tem cinco temporadas confirmadas e está planejada para ter sete temporadas no total. A quinta temporada está prevista para 2025 e será exibida nos cinemas.
+            Onde assistir as 3 primeiras temporadas:<a href="https://www.netflix.com/br/" target="_blank">Clique aqui para saber mais.</a>
+        </p>
+<button onclick="toggleContent(this)">Leia Mais</button>
+    </articles>
+</section>
+<section class="video-section">
+    <video controls width="600">
+        <source src="videos/The Chosen_ 1ª Temporada _ Trailer Oficial Dublado(720P_HD).mp4" type="video/mp4">
+    </video>
+</section>
+<section class="carousel">
+    <div class="carousel-images">
+<img src="images/the chosen capa.jpeg" alt="imagem 1">
+<img src="images/image 2.webp" alt="imagem 2">
+<img src="images/1664-14-01.jpg" alt="imagem 3">
+
+    </div>
+    <button class="carousel-button prev" onclick="prevSlide()"></button>
+    <button class="carousel-button next" onclick="nextSlide()"></button>
+</section>
+<div id="notification" class="notification"></div>
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+
+
+</html>
